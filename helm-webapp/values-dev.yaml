@@ -2,5 +2,6 @@
 replicas: 3
 
 configmap:
+  name: cm-helm-app-dev1
   data:
     CUSTOM_HEADER: 'This is on the DEV environment from helm!'
